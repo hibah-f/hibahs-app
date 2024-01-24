@@ -5,3 +5,120 @@ body {
     font-size: 16px;
     color: #444;
   }
+
+  a {
+    color: #444;
+    text-decoration: none;
+  }
+  
+  a.active {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #a349a4;
+  }
+  
+  a.button.active {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #a349a4;
+  }
+  
+  a:visited {
+    color: #444;
+  }
+  
+  a:hover {
+    color: #5cadd2;
+  }
+  
+  a.cta {
+    color: #a349a4;
+  }
+  
+  a.cta:visited {
+    color: #a349a4;
+  }
+  
+  a.cta:hover {
+    color: #eebbef;
+  }
+  
+  .cta {
+    color: #a349a4;
+  }
+  
+  a.cta {
+    color: #a349a4;
+  }
+  
+  a.cta:visited {
+    color: #a349a4;
+  }
+  
+  a.cta:hover {
+    color: #eebbef;
+  }
+  
+  .cta {
+    color: #a349a4;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  button {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 25px;
+    background-color: #5cadd2;
+    color: #fff;
+    border: 0;
+    box-shadow: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  a.button {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 25px;
+    background-color: #5e5492;
+    color: #fff;
+    border: 0px;
+    box-shadow: none;
+    border-radius: 0px;
+    cursor: pointer;
+  }
+  
+  a.button:hover {
+    color: #c3b3e2;
+  }
+  
+  button:disabled {
+    background-color: #777;
+  }
+  
+  button:hover {
+    color: #1c6d92;
+  }
+  
+  button.cta {
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    background-color: #a349a4;
+    color: #ddd;
+  }
+  
+  button.cta:hover {
+    color: #fff;
+  }
+  
+  input {
+    padding: 15px;
+    font-size: 20px;
+  }
+  
+  .button.cta:disabled {
+    background-color: #f590c4;
+    color: #aaa;
+  }
